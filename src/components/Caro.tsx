@@ -6,14 +6,7 @@ import { imagez } from "@/assets";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import styles
 
 export default function Caro() {
-  const heroImage = [
-    { imageUrl: "/image1.png" },
-    { imageUrl: "/image2.png" },
-    { imageUrl: "/image3.png" },
-    { imageUrl: "/image4.png" },
-    { imageUrl: "/image5.png" },
-    { imageUrl: "/image6.png" },
-  ];
+  const heroImage = [{ imageUrl: "/image1.png" }];
   return (
     <>
       <div className="  py-107    bg-slate-50 rounded-lg   ">
